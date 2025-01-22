@@ -131,29 +131,22 @@ This project provides a RESTful API to predict machine downtime or production de
 
 ## Example Usage
 
-### Using cURL
+## Using Swagger UI
+Start the FastAPI application:
 
-1. **Upload Dataset**
+bash
+Copy
+Edit
+uvicorn app:app --reload
+Open Swagger UI:
 
-   ```bash
-   curl -X POST "http://127.0.0.1:8000/upload" -F "file=@path_to_your_dataset.csv"
-   ```
+Go to http://127.0.0.1:8000/docs in your web browser.
+Interact with API Endpoints:
 
-2. **Train Model**
-
-   ```bash
-   curl -X POST "http://127.0.0.1:8000/train"
-   ```
-
-3. **Make Prediction**
-
-   ```bash
-   curl -X POST "http://127.0.0.1:8000/predict" \
-   -H "Content-Type: application/json" \
-   -d '{"ProductionVolume": 1200, "MaintenanceHours": 5}'
-   ```
-
----
+Use the Swagger UI to test the following endpoints:
+Upload Dataset: Use the /upload endpoint to upload a CSV file containing manufacturing data.
+Train Model: Use the /train endpoint to train the Logistic Regression model on the uploaded dataset.
+Make Prediction: Use the /predict endpoint to make predictions based on ProductionVolume and MaintenanceHours.
 
 ## Notes
 
