@@ -160,4 +160,3 @@ This project provides a RESTful API to predict machine downtime or production de
 - `DefectStatus` should be binary (e.g., `0` for no defect, `1` for defect).
 - Use Postman or similar tools to test the API endpoints interactively.
 
-    
