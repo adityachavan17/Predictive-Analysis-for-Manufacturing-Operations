@@ -22,8 +22,9 @@ This project provides a RESTful API to predict machine downtime or production de
 1. **Clone the repository**
 
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/adityachavan17/Predictive-Analysis-for-Manufacturing-Operations.git
+   cd Predictive-Analysis-for-Manufacturing-Operations
+
    ```
 
 2. **Install dependencies**
