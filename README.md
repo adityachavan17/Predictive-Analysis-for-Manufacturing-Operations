@@ -39,7 +39,7 @@ This project provides a RESTful API to predict machine downtime or production de
    uvicorn app:app --reload
    ```
 
-   The API will be available at `http://127.0.0.1:8000`.
+   The API will be available at `http://127.0.0.1:8000/docs`.
 
 ---
 
